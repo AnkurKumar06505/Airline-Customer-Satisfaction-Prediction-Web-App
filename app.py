@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the pre-trained model
-with open('models/lgbm_model.pkl', 'rb') as file:
+with open('Models/lgbm_model.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
 
 
